@@ -149,7 +149,7 @@ def new_pathway_test_intersection(pathways_to_intersect, pathway_dictionary, tes
     fraction_list = []
 
     for pathway in pathways_to_intersect:
-        new_intersection = list(set(pathway_dictionary[pathway])&set(test_genes_list))
+        new_intersection = list(np.unique(set(pathway_dictionary[pathway])&set(test_genes_list)))
         new_intersection_dictionary[pathway] = new_intersection
         #get the fraction of genes which were removed in the pathway
         if len(set(pathway_dictionary[pathway])) == 0:
