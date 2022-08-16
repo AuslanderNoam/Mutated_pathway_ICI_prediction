@@ -7,7 +7,7 @@ Machine and Python Version: The code was tested and run on a Windows 10 machine 
 
 Part 1: Setup
 
-1. Install the setup.py file. This can be done by running 
+Install the setup.py file. This can be done by running 
 
 python setup.py install 
 
