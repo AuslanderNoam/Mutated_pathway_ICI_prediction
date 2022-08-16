@@ -10,8 +10,8 @@ Part 1: Setup
 Install the setup.py file. This can be done by running 
 
 python setup.py install 
-
-in the directory with the setup.py file.
+or 
+pip install . 
 
 Part 2: running_example
 
@@ -19,10 +19,10 @@ This is an example of how to run the basic random forest models on the training,
 
 Run line by line the file 10_code/running_example
 This code is divided into different sections. 
-Lines 1-28 import the modules and data. 
-Lines 31-36 show how to train the random forest model on the training data
-Lines 38-45 show how to apply the random forest model to the validation data
-Lines 47-54 show how to apply the random forest model to the testing data
+   (1)Lines 1-28 import the modules and data.
+   (2)Lines 31-36 show how to train the random forest model on the Liu training data
+   (3)Lines 38-45 show how to apply the random forest model to the Riaz validation data
+   (4)Lines 47-54 show how to apply the random forest model to the Hugo testing data
 
 Part 3: Reproducing Figures
 This section details how to produce the raw figures which were used in the paper.
