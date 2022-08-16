@@ -5,7 +5,26 @@ The second part is a description of how to run the algorithms on new datasets.
 
 Machine and Python Version: The code was tested and run on a Windows 10 machine version 10.0.19042 build 19042, Python 3.8.8
 
-Part 1: Reproducing Figures
+Part 1: Setup
+
+1. Install the setup.py file. This can be done by running 
+
+python setup.py install 
+
+in the directory with the setup.py file.
+
+Part 2: running_example
+
+This is an example of how to run the basic random forest models on the training, validation, and test datasets
+
+Run line by line the file 10_code/running_example
+This code is divided into different sections. 
+Lines 1-28 import the modules and data. 
+Lines 31-36 show how to train the random forest model on the training data
+Lines 38-45 show how to apply the random forest model to the validation data
+Lines 47-54 show how to apply the random forest model to the testing data
+
+Part 3: Reproducing Figures
 This section details how to produce the raw figures which were used in the paper.
 
 Raw data can be found in the 00_Data folder.
@@ -35,7 +54,7 @@ make_plots_main()
 This will recreate the raw figures used in the paper.
 
 
-Part 2: Reproducing Results
+Part 4: Reproducing Results
 
 The following sections detail how to use and rerun the code, either to reproduce the results in part 1 or to use the algorithms on new datasets
 
